@@ -17,7 +17,7 @@ namespace checkersLogic
     public class Cell
     {
         private eEntity m_Entity;
-        // should be m_IsKing
+
         private bool m_isKing;
 
         public Cell(eEntity i_Entity)
