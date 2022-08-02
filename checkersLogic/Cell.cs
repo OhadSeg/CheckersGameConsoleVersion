@@ -6,7 +6,6 @@ using System.Text;
 namespace checkersLogic
 {
 
-    // $G$ CSS-999 (-5) Every Class/Enum which is not nested should be in a separate file.
     public enum eEntity
     {
         Player1,
