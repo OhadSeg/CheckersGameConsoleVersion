@@ -8,13 +8,9 @@ namespace checkersLogic
     public class GameLogic
     {
         private const int k_NumOfcontestants = 2;
-        // $G$ DSN-999 (-3) This Array should be readonly.
         private readonly Cell[,] m_Board;
-        // $G$ DSN-999 (-3) This Array should be readonly.
         private readonly List<Move> m_PossibleStepsList;
-        // $G$ DSN-999 (-3) This Array should be readonly.
         private readonly List<Move> m_PossibleJumpsList;
-        // This Array should be readonly.
         private readonly List<Move> m_PossibleMultiplyJumpsList;
         private Player m_TurnToPlay;
         private Player m_NextToPlay;
