@@ -124,7 +124,7 @@ namespace checkersLogic
             }
         }
 
-        // $G$ DSN-003 (-10) the code should be divided to methods
+
         private List<Move> buildAllPossStepsForCurrToPlay()
         {
             m_PossibleStepsList.Clear();
@@ -248,7 +248,7 @@ namespace checkersLogic
 
         private void       buildPossiblePieceJumpsList(Move i_Move)
         {
-            // should be named allPossibleJumpsList
+
             List<Move> AllPossibleJumpsList = buildAllPossJumpsForCurrToPlay();
 
             foreach (Move jumpMove in AllPossibleJumpsList)
@@ -277,7 +277,7 @@ namespace checkersLogic
             return ifValidMove;
         }
 
-        // $G$ DSN-003 (-10) the code should be divided to methods
+
         public bool        ApplayMoveOfHuman(Move i_Move)
         {
             bool isValidMove = false;
@@ -344,8 +344,8 @@ namespace checkersLogic
             Move move = null;
             int drawnNumber;
 
-            // $G$ NTT-007 (-10) There's no need to re-instantiate the Random instance each time it is used.
-            // can make it a member instead.
+
+
             Random rnd = new Random();
 
             buildAllPossJumpsForCurrToPlay();
