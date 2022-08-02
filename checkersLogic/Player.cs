@@ -7,7 +7,6 @@ namespace checkersLogic
 {
     public class Player
     {
-        // $G$ CSS-999 (-5) Every Class/Enum which is not nested/public should be in a separate file.
         public enum ePlayerType
         {
             Human,
